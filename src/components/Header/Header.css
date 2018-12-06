@@ -1,0 +1,6 @@
+.jumbotron {
+  background-image: url("./Images/headerBG.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
