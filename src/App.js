@@ -8,10 +8,14 @@ class App extends Component {
     return (
       <Router>
         <div>
-        <Header />
-
-        
-
+        <Header /> 
+        <Switch>
+          <Route exact path='/video' component={VideoPage} />
+          <Route exact path='/photo ' component={Photo} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/contact' component={Contact} />
+          <Route component={Home} />
+        </Switch>
 
         </div>
       </Router>
