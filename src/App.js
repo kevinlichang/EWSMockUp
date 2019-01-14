@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import WhoIsSko from './components/WhoIsSko/WhoIsSko';
+import Home from './components/Home/Home';
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <div>
         <Header /> 
         <Switch>
+          <Route exact path='/' component={Home} />
           <Route exact path='/video' component={VideoPage} />
           <Route exact path='/photo ' component={Photo} />
           <Route exact path='/about' component={About} />
