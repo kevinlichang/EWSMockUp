@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import About from './components/About/About';
 import WhoIsSko from './components/WhoIsSko/WhoIsSko';
 import Home from './components/Home/Home';
+import VideoPage from './components/VideoPage/Video';
 
 
 class App extends Component {
