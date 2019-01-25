@@ -6,6 +6,7 @@ import WhoIsSko from './components/WhoIsSko/WhoIsSko';
 import Home from './components/Home/Home';
 import VideoPage from './components/VideoPage/Video';
 import Photo from './components/Photo/Photo';
+import Contact from './components/Contact/Contact';
 
 
 
